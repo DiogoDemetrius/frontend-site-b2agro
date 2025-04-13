@@ -19,7 +19,7 @@ const Contato = () => {
     setStatus(null);
 
     try {
-      const response = await axios.post(`${import.meta.env.VITE_API_URL}/api/contato/criarContato`, formData, {
+      const response = await axios.post(`https://frontend-site-b2agro.vercel.app/api/contato/criarContato`, formData, {
         headers: {
           'Content-Type': 'application/json',
         },
