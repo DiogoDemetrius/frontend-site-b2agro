@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FaUser, FaChartLine, FaFileInvoiceDollar, FaCalendarAlt, FaTractor, FaSignOutAlt, FaUserCog } from 'react-icons/fa';
+import { FaChartLine, FaFileInvoiceDollar, FaCalendarAlt, FaTractor, FaSignOutAlt, FaUserCog } from 'react-icons/fa';
 
 const Dashboard = () => {
   const [isProfileMenuOpen, setIsProfileMenuOpen] = useState(false);

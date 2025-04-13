@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { 
-  FaCamera, FaLock, FaEnvelope, FaPhone, FaMapMarkerAlt, FaCalendarAlt,
+  FaCamera, FaLock, FaEnvelope, FaPhone, FaCalendarAlt,
   FaTractor, FaLeaf, FaCog, FaBell, FaShieldAlt, FaHistory, FaCheckCircle
 } from 'react-icons/fa';
 
