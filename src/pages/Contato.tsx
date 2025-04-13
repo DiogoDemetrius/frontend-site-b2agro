@@ -27,13 +27,11 @@ const Contato = () => {
 
       setStatus(response.data.message);
       setFormData({ nome: '', email: '', mensagem: '' }); // Limpa o formulário
-    } catch (error: any) {
-      if (error.response) {
-        // Erro retornado pelo servidor
-        setStatus(error.response.data.message || 'Erro ao enviar o formulário');
+    } catch (axiosError) {
+      if (axios.isAxiosError(axiosError)) {
+        setStatus('Erro ao enviar a mensagem. Tente novamente mais tarde.');
       } else {
-        // Erro de rede ou outro problema
-        setStatus('Erro ao enviar o formulário');
+        setStatus('Erro inesperado. Tente novamente mais tarde.');
       }
     }
   };
