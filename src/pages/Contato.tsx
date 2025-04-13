@@ -26,7 +26,7 @@ const Contato = () => {
       });
 
       setStatus(response.data.message);
-      setFormData({ nome: '', email: '', mensagem: '' }); // Limpa o formulário
+      setFormData({ nome: '', email: '', mensagem: '' }); 
     } catch (axiosError) {
       if (axios.isAxiosError(axiosError)) {
         setStatus('Erro ao enviar a mensagem. Tente novamente mais tarde.');
