@@ -50,14 +50,13 @@ const Contato = () => {
             <div className="space-y-4">
               <div>
                 <h4 className="text-sm font-medium text-gray-500">Endereço</h4>
-                <p className="mt-1">Av. Principal, 1000</p>
-                <p>Centro, Cidade - Estado</p>
-                <p>CEP: 00000-000</p>
+                <p className="mt-1">Brasília,</p>
+                <p>SMLN MI 13 Condomínio Nosso Lar</p>
+                <p>CEP: 71540-150</p>
               </div>
               <div>
                 <h4 className="text-sm font-medium text-gray-500">Telefone</h4>
-                <p className="mt-1">(00) 1234-5678</p>
-                <p>(00) 98765-4321</p>
+                <p className="mt-1">(061) 3623-4567</p>
               </div>
               <div>
                 <h4 className="text-sm font-medium text-gray-500">Email</h4>
