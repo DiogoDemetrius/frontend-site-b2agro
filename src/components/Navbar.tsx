@@ -19,9 +19,9 @@ const Navbar = () => {
             <Link to="/blog" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-800">
               Blog
             </Link>
-            <Link to="/contato" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-800">
+            {/*<Link to="/contato" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-800">
               Contato
-            </Link>
+            </Link>*/}
             <Link to="/sobre" className="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-800">
               Sobre nós
             </Link>
